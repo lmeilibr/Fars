@@ -13,3 +13,4 @@ devtools::install_github("Fars/lmeilibr")
 ```
 
 ## Travis Badge
+[![Build Status](https://travis-ci.org/lmeilibr/Fars.svg?branch=master)](https://travis-ci.org/lmeilibr/Fars)
