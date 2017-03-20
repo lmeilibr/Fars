@@ -1,0 +1,19 @@
+Package: Fars
+Type: Package
+Title: Analysis of Accidents using the FARS dataset
+Version: 0.1.0
+Date: 2017-03-20
+Depends: R (>= 3.0.0)
+Imports: dplyr, maps, tidyr, graphics, readr
+Author: Unkown - Maybe Roger Peng?
+Maintainer: Leandro Meili <leandro.meilif@gmail.com>
+Description: This package provides functions for analysing the Fars Accidente dataset including filtering and map plotting.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+URL: https://github.com/lmeilibr/Fars
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

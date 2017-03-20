@@ -1,0 +1,28 @@
+---
+title: "Fars Functions"
+author: "Leandro Meili"
+date: "2017-03"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This Fars package is composed mainly by two functions:
+
+- fars_summarize_years (to summarize the year of analyis)
+- fars_map_state (to plot the data on a map)
+
+## fars_summarize_years
+
+To summarize the data from the years 2013,2014 and 2015, just type:
+
+fars_summarize_years(2013:2015)
+
+## fars_map_state
+
+To plot a map with the locations of the accidents the state1 in 2013, just type:
+
+fars_map_state(1,2013)
+
